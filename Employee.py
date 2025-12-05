@@ -25,8 +25,8 @@ class Employee:
     def fullname(self):
         return '{} {}'.format(self.first, self.last)
 
-    def newHoliday(self, addDay):
-        self.holiday_left = self.holiday_left + addDay
+    def new_holiday(self, add_day):
+        self.holiday_left = self.holiday_left + add_day
     
     def __str__(self):
         return self.first+" "+self.last+" "+self.email+", jours restants : "+ str(self.holiday_left)

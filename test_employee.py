@@ -20,7 +20,7 @@ class TestEmployee:
     def test_holiday(self, setup_employee):
         employee = deepcopy(setup_employee)
         assert employee.holiday_left == 1
-        employee.newHoliday(10)
+        employee.new_holiday(10)
         assert employee.holiday_left == 11
 
     def test_str(self, setup_employee):

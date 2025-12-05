@@ -19,4 +19,4 @@ class TestTeacher:
         assert teacher.teaching_hours == 10
 
     def test_str(self, setup_teacher):
-        assert str(setup_teacher) == 'Alice Aliceson Alice.Aliceson@ec-nantes.fr, jours restants : 1, teaching hours : 1'.format(super().__str__(), self)
+        assert str(setup_teacher) == 'Alice Aliceson Alice.Aliceson@ec-nantes.fr, jours restants : 1, teaching hours : 1'
